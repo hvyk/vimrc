@@ -3,6 +3,8 @@
 " Author: Gerhard Gappmeier
 "
 
+autocmd FileType make setlocal noexpandtab
+
 let $MYVIMRC = expand("<sfile>:p")
 let mapleader=","
 
